@@ -15,6 +15,9 @@ const App = () => {
           <li>
             <Link to={"virtualization"}>Virtualization</Link>
           </li>
+          <li>
+            <Link to={"jsPrac"}>JS Prac</Link>
+          </li>
         </ol>
       </div>
     </>

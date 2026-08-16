@@ -4,6 +4,7 @@ import {
   ErrorPage,
   NotFoundPage,
   VirtualizationPage,
+  JSPracPage,
 } from "../lazy/pages";
 import { Suspense } from "react";
 
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <AppPage /> },
       { path: "virtualization", element: <VirtualizationPage /> },
+      { path: "jsPrac", element: <JSPracPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },

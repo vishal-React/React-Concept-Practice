@@ -9,3 +9,7 @@ export const NotFoundPage = lazy(
 export const VirtualizationPage = lazy(
   () => import("../components/Virtualizaton/Virtualization"),
 );
+export const JSPracPage = lazy(
+  () => import("../components/JSPrac/JSPrac"),
+);
+
