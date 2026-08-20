@@ -15,12 +15,12 @@ if (import.meta.env.DEV) {
 }
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <ErrorBoundary fallback={<ErrorPage />}>
-      <QueryClientProvider client={queryClient}>
-        <Toaster richColors closeButton theme="dark" duration={3000} />
-        <RouterProvider router={router} />
-      </QueryClientProvider>
-    </ErrorBoundary>
-  </StrictMode>,
+  // <StrictMode>
+  <ErrorBoundary fallback={<ErrorPage />}>
+    <QueryClientProvider client={queryClient}>
+      <Toaster richColors closeButton theme="dark" duration={3000} />
+      <RouterProvider router={router} />
+    </QueryClientProvider>
+  </ErrorBoundary>,
+  // </StrictMode>,
 );

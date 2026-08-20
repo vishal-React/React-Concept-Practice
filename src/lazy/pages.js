@@ -9,3 +9,6 @@ export const NotFoundPage = lazy(
 export const VirtualizationPage = lazy(
   () => import("../components/Virtualizaton/Virtualization"),
 );
+export const BoxBacktrackingPage = lazy(
+  () => import("../components/BoxBacktracking/BoxBacktracking"),
+);

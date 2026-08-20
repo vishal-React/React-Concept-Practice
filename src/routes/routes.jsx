@@ -1,6 +1,7 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import {
   AppPage,
+  BoxBacktrackingPage,
   ErrorPage,
   NotFoundPage,
   VirtualizationPage,
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <AppPage /> },
       { path: "virtualization", element: <VirtualizationPage /> },
+      { path: "boxBacktracking", element: <BoxBacktrackingPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },
