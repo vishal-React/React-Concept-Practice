@@ -12,3 +12,4 @@ export const VirtualizationPage = lazy(
 export const BoxBacktrackingPage = lazy(
   () => import("../components/BoxBacktracking/BoxBacktracking"),
 );
+export const JSPracPage = lazy(() => import("../components/JSPrac/JSPrac"));

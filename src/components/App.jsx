@@ -18,6 +18,9 @@ const App = () => {
           <li>
             <Link to={"boxBacktracking"}>BoxBacktracking</Link>
           </li>
+          <li>
+            <Link to={"jsPrac"}>JS Prac</Link>
+          </li>
         </ol>
       </div>
     </>
