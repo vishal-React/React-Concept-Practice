@@ -13,7 +13,9 @@ const App = () => {
       <div className="p-6">
         <ol className="list-decimal">
           <li>
-            <Link to={"virtualization"}>Virtualization</Link>
+            <Link to={"InfiniteScrollingAndVirtualization"}>
+              Infinite scrolling And Virtualization
+            </Link>
           </li>
           <li>
             <Link to={"boxBacktracking"}>BoxBacktracking</Link>
