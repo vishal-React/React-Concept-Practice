@@ -8,11 +8,7 @@ import { queryClient } from "./apiServices/configs/tanstackQueryConfig.js";
 import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import "./main.css";
-import setupLocatorUI from "@locator/runtime";
 
-if (import.meta.env.DEV) {
-  setupLocatorUI();
-}
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
