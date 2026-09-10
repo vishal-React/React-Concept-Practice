@@ -68,4 +68,22 @@ const PreLoadAndPreFetch = () => {
 // Preload and prefetch do not make the internet/network itself faster.
 
 // They mainly tell the browser when and how important a resource is, so the browser can decide when to start fetching it.
+
+// PRELOAD
+// → "I need this NOW"
+// → fetch early
+
+// PREFETCH
+// → "I might need this LATER"
+// → speculative/background fetching
+
+// image attribute
+// fetchPriority="high"
+// → "This resource is IMPORTANT"
+// → prioritize it over competing resources
+// importance / scheduling;
+
+// loading="lazy"
+// → "I don't need this yet"
+// → wait until needed/near viewport
 export default PreLoadAndPreFetch;
