@@ -6,6 +6,7 @@ import {
   NotFoundPage,
   JSPracPage,
   InfiniteScrollingAndVirtualizationPage,
+  PreLoadAndPreFetchPage,
 } from "../lazy/pages";
 import { Suspense } from "react";
 
@@ -32,6 +33,7 @@ export const router = createBrowserRouter([
       },
       { path: "boxBacktracking", element: <BoxBacktrackingPage /> },
       { path: "jsPrac", element: <JSPracPage /> },
+      { path: "preLoad&preFetch", element: <PreLoadAndPreFetchPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },

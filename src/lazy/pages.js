@@ -7,9 +7,13 @@ export const NotFoundPage = lazy(
   () => import("../components/NotFound/NotFound"),
 );
 export const InfiniteScrollingAndVirtualizationPage = lazy(
-  () => import("../components/InfiniteScrollAndVirtualizaton/InfiniteScrollingAndVirtualization"),
+  () =>
+    import("../components/InfiniteScrollAndVirtualizaton/InfiniteScrollingAndVirtualization"),
 );
 export const BoxBacktrackingPage = lazy(
   () => import("../components/BoxBacktracking/BoxBacktracking"),
 );
 export const JSPracPage = lazy(() => import("../components/JSPrac/JSPrac"));
+export const PreLoadAndPreFetchPage = lazy(
+  () => import("../components/PreLoadAndPreFetch/PreLoadAndPreFetch"),
+);

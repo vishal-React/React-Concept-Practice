@@ -23,6 +23,9 @@ const App = () => {
           <li>
             <Link to={"jsPrac"}>JS Prac</Link>
           </li>
+          <li>
+            <Link to={"preLoad&preFetch"}>PreLoad And PreFetch</Link>
+          </li>
         </ol>
       </div>
     </>
